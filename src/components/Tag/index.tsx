@@ -1,5 +1,9 @@
 import { TagContainer } from './styles'
 
-const Tag = () => <TagContainer>Destaque</TagContainer>
+type Props = {
+  tipo: string
+}
+
+const Tag = ({ tipo }: Props) => <TagContainer>{tipo}</TagContainer>
 
 export default Tag

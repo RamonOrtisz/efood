@@ -8,3 +8,14 @@ export const TagContainer = styled.div`
   font-weight: bold;
   padding: 6px 4px;
 `
+export const TagBar = styled.button`
+  color: ${colors.textColor};
+  background-color: ${colors.orange};
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 6px;
+  margin-bottom: 8px;
+  text-decoration: none;
+  border: none;
+  margin-left: 8px;
+`

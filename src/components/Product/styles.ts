@@ -5,16 +5,7 @@ export const Card = styled.div`
   background-color: ${colors.white};
   max-width: 474px;
   border: 1px solid ${colors.orange};
-
-  div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 8px;
-    margin-bottom: 16px;
-    margin-right: 8px;
-    margin-left: 8px;
-  }
+  position: relative;
 
   span {
     max-width: 55px;
@@ -42,4 +33,18 @@ export const Descricao = styled.p`
   font-size: 14px;
   line-weight: 22px;
   margin-bottom: 16px;
+`
+export const NomeAvalia = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  margin-right: 8px;
+  margin-left: 8px;
+`
+export const Infos = styled.div`
+  position: absolute;
+  top: 16px;
+  right: 16px;
 `
